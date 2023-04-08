@@ -9,8 +9,8 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          A farmer who codes to became&nbsp;
-          <code className={styles.code}>freelancer</code>
+          A&nbsp;
+          <code className={styles.code}>freelancer</code>&nbsp; who codes and design.
         </p>
         <div>
           <a
@@ -53,10 +53,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            A farmer <span>-&gt;</span>
+            A Designer <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            a farmer by day.
+            a designer by day.
           </p>
         </a>
 
