@@ -1,4 +1,5 @@
 import './globals.css'
+import { GeistSans, GeistMono } from 'geist/font'
 
 export const metadata = {
   title: 'MHM',
@@ -11,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <body>{children}</body>
     </html>
   )
