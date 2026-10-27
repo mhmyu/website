@@ -2,27 +2,42 @@
   "name": "mhm",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@12.15.0",
+  "engines": {
+    "node": "24.x",
+    "pnpm": ">=12.15.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
-    "geist": "^1.7.2",
-    "next": "^16.2.10",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "@mdx-js/loader": "3.1.1",
+    "@mdx-js/react": "3.1.1",
+    "@next/mdx": "16.4.3",
+    "@vercel/analytics": "2.0.1",
+    "geist": "1.8.2",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.2",
-    "@types/node": "26.1.1",
-    "@types/react": "19.2.17",
-    "@types/react-dom": "19.2.3",
-    "eslint": "10.7.0",
-    "eslint-config-next": "^16.2.10",
-    "postcss": "^8.5.16",
-    "tailwindcss": "^4.3.2",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/mdx": "2.0.14",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.3",
+    "postcss": "8.5.31",
+    "prettier": "3.9.10",
+    "prettier-plugin-tailwindcss": "0.8.1",
+    "tailwindcss": "4.3.3",
     "typescript": "6.0.3"
   }
 }
