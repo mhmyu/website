@@ -19,25 +19,25 @@
   "dependencies": {
     "@mdx-js/loader": "3.1.1",
     "@mdx-js/react": "3.1.1",
-    "@next/mdx": "16.4.3",
+    "@next/mdx": "16.4.6",
     "@vercel/analytics": "2.0.1",
-    "geist": "1.8.2",
-    "next": "16.4.3",
+    "geist": "1.9.2",
+    "next": "16.4.6",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.5",
     "@types/mdx": "2.0.14",
     "@types/node": "24.19.2",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.4.3",
-    "postcss": "8.5.31",
-    "prettier": "3.9.10",
+    "eslint-config-next": "16.4.6",
+    "postcss": "8.5.33",
+    "prettier": "3.10.1",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "tailwindcss": "4.3.3",
+    "tailwindcss": "4.3.5",
     "typescript": "6.0.3"
   }
 }
